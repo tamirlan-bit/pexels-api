@@ -1,0 +1,21 @@
+<div class="container">
+
+  <div class="search-bar">
+    <form method="get">
+      <input type="text" name="query" placeholder="Search photos...">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+  <div class="gallery">
+    <% @photos.each do |photo| %>
+      <div class="photo">
+        <img src="<%= photo[:image_url] %>" />
+        <div class="photo-info">
+          <%= photo[:photographer] %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+</div>
