@@ -12,5 +12,5 @@ At the end I added some style so it feels more like a real app and not just API 
 
 ## Screenshot
 
-![App Screenshot](app/images/pexel_api.jpg)
+![App Screenshot](app/assets/images/pexel_api.jpg)
 
